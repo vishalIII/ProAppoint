@@ -33,7 +33,7 @@ Clone the repository:
 
 sh
 Copy code
-git clone https://github.com/yourusername/ProAppoint.git
+git clone https://github.com/vishalIII/ProAppoint.git
 cd ProAppoint
 Install dependencies:
 
