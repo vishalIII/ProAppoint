@@ -9,7 +9,7 @@ connectToMongo()
 // Allow requests from specific origin (replace with your frontend URL)
 const cors=require('cors')
 const corsOptions = {
-  origin: `${process.env.client_URL}`, // Replace with your frontend URL
+  origin: 'https://669ac50a017118a3e1b7cce9--iridescent-baklava-f7ebc2.netlify.app', // Replace with your frontend URL
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   allowedHeaders: ['Authorization', 'Content-Type'], // Add other headers as needed
   credentials: true // If you need to include cookies in the requests
@@ -35,7 +35,7 @@ app.use('/api/appointment', require('./routes/appointmentRoute'));
 // -----------------------------------------------
 
 app.get('/',(req,res)=>{
-    res.send("Hello 2")
+    res.send("Hello 3")
 })
 
 app.listen(port,()=>console.log(`Node server started at port ${port}`))
