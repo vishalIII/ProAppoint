@@ -35,7 +35,7 @@ app.use('/api/appointment', require('./routes/appointmentRoute'));
 // -----------------------------------------------
 
 app.get('/',(req,res)=>{
-    res.send("Hello 1")
+    res.send("Hello 2")
 })
 
 app.listen(port,()=>console.log(`Node server started at port ${port}`))
