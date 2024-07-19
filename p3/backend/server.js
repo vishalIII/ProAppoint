@@ -9,7 +9,7 @@ connectToMongo()
 // Allow requests from specific origin (replace with your frontend URL)
 const cors=require('cors')
 const corsOptions = {
-  origin: 'http://localhost:5173', // Replace with your frontend URL
+  origin: process.env.client_URL, // Replace with your frontend URL
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   allowedHeaders: ['Authorization', 'Content-Type'], // Add other headers as needed
   credentials: true // If you need to include cookies in the requests
