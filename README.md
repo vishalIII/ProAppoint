@@ -1,6 +1,5 @@
 # ProAppoint
-Live Demo : https://669ac50a017118a3e1b7cce9--iridescent-baklava-f7ebc2.netlify.app/
-
+Live Demo : https://capable-souffle-97ddd5.netlify.app/
 
 Youtube video : https://youtu.be/oDyuu-OwTWc
 
