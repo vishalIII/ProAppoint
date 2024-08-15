@@ -9,7 +9,7 @@ connectToMongo()
 // Allow requests from specific origin (replace with your frontend URL)
 const cors=require('cors')
 const corsOptions = {
-  origin: 'https://669ac50a017118a3e1b7cce9--iridescent-baklava-f7ebc2.netlify.app', // Replace with your frontend URL
+  origin: 'https://66bdef8b08d4631d9d76dcba--capable-souffle-97ddd5.netlify.app', // Replace with your frontend URL
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   allowedHeaders: ['Authorization', 'Content-Type'], // Add other headers as needed
   credentials: true // If you need to include cookies in the requests
